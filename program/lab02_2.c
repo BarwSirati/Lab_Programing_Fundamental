@@ -6,7 +6,7 @@ int main()
     scanf("%d", &x);
     printf("Enter second number : ");
     scanf("%d", &y);
-    while (i <= x || i <= y)
+    while (i <= x && i <= y)
     {
         if (x % i == 0 && y % i == 0)
         {
