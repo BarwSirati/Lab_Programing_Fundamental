@@ -33,13 +33,12 @@ int main()
         for (int k = 0;k<2*i+1;k++){
             printf("  ");
         }
-        for (int j = 0; j < dot; j++)
+        for (int l = 0; l < dot; l++)
         {
             printf("* ");
         }
         dot--;
         printf("\n");
     }
-
     return 0;
 }
