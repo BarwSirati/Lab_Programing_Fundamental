@@ -1,0 +1,4 @@
+﻿  lab5_01.cpp
+C:\Users\barws\source\repos\TextModeGame\TextModeGame\lab5_01.cpp(11,14): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Users\barws\source\repos\TextModeGame\TextModeGame\lab5_01.cpp(11,17): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+  TextModeGame.vcxproj -> C:\Users\barws\source\repos\TextModeGame\Debug\TextModeGame.exe

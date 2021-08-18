@@ -1,1 +1,0 @@
-  sprintf(y, "%d", sum);

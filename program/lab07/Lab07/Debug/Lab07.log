@@ -1,0 +1,7 @@
+﻿  Source.cpp
+C:\Users\barws\source\repos\Lab07\Lab07\Source.cpp(58,14): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Users\barws\source\repos\Lab07\Lab07\Source.cpp(58,17): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Users\barws\source\repos\Lab07\Lab07\Source.cpp(64,14): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Users\barws\source\repos\Lab07\Lab07\Source.cpp(64,16): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Users\barws\source\repos\Lab07\Lab07\Source.cpp(203,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Lab07.vcxproj -> C:\Users\barws\source\repos\Lab07\Debug\Lab07.exe
