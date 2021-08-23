@@ -13,6 +13,7 @@ int main()
     
     while (x!=1)
     {
+        //10
         if (x%i == 0)
         {
             printf("%d",i);

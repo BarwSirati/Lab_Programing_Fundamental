@@ -1,47 +1,28 @@
 #include <iostream>
 #include <string>
 #include <cctype>
-#include <sstream>
 using namespace std;
 int main()
 {
     //Original By Barw
     string x;
     cin >> x;
-    int i = 0, num;
-    while (i < x.length())
+    for (size_t i = 0; i < x.length(); i++)
     {
-        num = 0;
-        string y;
-        if (isdigit(x[i]) && isdigit(x[i + 1]))
+        if (isdigit(x[i]))
         {
-            y += x[i];
-            y += x[i + 1];
-            stringstream ss;
-            ss << y;
-            ss >> num;
-            for (int j = 0; j < num; j++)
+            string num;
+            while (isdigit(x[i]))
             {
-                cout << x[i + 2];
+                num += x[i];
+                i++;
             }
-            i += 3;
-        }
-        else if (isdigit(x[i]))
-        {
-            y += x[i];
-            stringstream ss;
-            ss << y;
-            ss >> num;
-            for (int j = 0; j < num; j++)
+            for (size_t j = 0; j < stoi(num); j++)
             {
-                cout << x[i + 1];
+                cout<<x[i];
             }
-            i+=2;
-        }
-        else
-        {
-            cout << x[i];
-            i++;
+        }else{
+            cout<<x[i];
         }
     }
     return 0;
