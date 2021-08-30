@@ -32,12 +32,12 @@ int main() {
 				draw_ship(--x, y);
 			if (ch=='d' && x <= 80)
 				draw_ship(++x, y);
-			if (ch == 'w')
+			if (ch == 'w' && y>0)
 			{
 				erase_ship(x, y);
 				draw_ship(x, --y);
 			}
-			if (ch == 's') 
+			if (ch == 's' && y > 80)
 			{
 				erase_ship(x, y);
 				draw_ship(x, ++y);

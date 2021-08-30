@@ -4,7 +4,6 @@
 using namespace std;
 int main()
 {
-    //Original By Barw
     string x;
     cin >> x;
     for (size_t i = 0; i < x.length(); i++)
