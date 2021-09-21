@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\barws\source\repos\Lab08\Source.cpp(118,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\barws\source\repos\Lab08\Source.cpp(133,48): warning C4805: '==': unsafe mix of type 'BOOL' and type 'bool' in operation
+  Lab08.vcxproj -> C:\Users\barws\source\repos\Lab08\x64\Debug\Lab08.exe
